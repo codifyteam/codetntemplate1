@@ -13,7 +13,7 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Page Title -->
-    <title>Themefisher.Free Bootstrap3 based HTML5 Templates</title>
+    <title>code.tn</title>
     <!-- Meta Description -->
     <meta name="description" content="Blue One Page Creative HTML5 Template">
     <meta name="keywords"
@@ -70,7 +70,7 @@ Fixed Navigation
             <!-- logo -->
             <a class="navbar-brand" href="#body">
                 <h1 id="logo">
-                    <img src="img/logo.png" alt="Brandi">
+                    <img src="img/logo.png" alt="code.tn">
                 </h1>
             </a>
             <!-- /logo -->
@@ -80,7 +80,7 @@ Fixed Navigation
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav" class="nav navbar-nav">
                 <li class="current"><a href="#body">Home</a></li>
-                <li><a href="#features">Features</a></li>
+                <li><a href="#features">Services</a></li>
                 <li><a href="#works">Work</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -115,10 +115,10 @@ Home Slider
             <!-- single slide -->
             <div class="item active" style="background-image: url(img/banner.jpg);">
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!
+                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> code.tn</span>!
                     </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
-                        one page template.</h3>
+                        Coding and Training Agency</h3>
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
@@ -169,7 +169,7 @@ Features
         <div class="row">
 
             <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-                <h2>Features</h2>
+                <h2>Services</h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
@@ -253,7 +253,7 @@ Our Works
                     <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
                     <li><a href="javascript:;" data-filter=".branding" class="filter">Branding</a></li>
                     <li><a href="javascript:;" data-filter=".web" class="filter">web</a></li>
-                    <li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
+                    <li><a href="javascript:;" data-filter=".logo-design" class="filter">Training</a></li>
                     <li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
                 </ul>
             </div>
@@ -534,17 +534,17 @@ Contact Us
             </div>
 
             <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <p>You can contact us in order to have more details</p>
             </div>
 
             <!-- contact address -->
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
                 <div class="contact-address">
-                    <h3>Cras at ultrices erat, sed vulputate!</h3>
-                    <p>2345 Setwant natrer, 1234,</p>
-                    <p>Washington. United States.</p>
-                    <p>(401) 1234 567</p>
+                    <h3>Join us!</h3>
+                    <p>Immeuble Aoun Sousse</p>
+                    <p>near Carrefour Jawhra</p>
+                    <p>53 52 49 63</p>
+                    <p>contact@code.tn</p>
                 </div>
             </div>
             <!-- end contact address -->
@@ -594,7 +594,27 @@ Contact Us
     </div>
 
     <!-- Google map -->
-    <div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="100%" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=carrefour%20jawhra&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://fmovies2.org"></a><br>
+            <style>.mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 100%;
+                }</style>
+            <a href="https://www.embedgooglemap.net">google map api for website</a>
+            <style>.gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 100%;
+                }</style>
+        </div>
+    </div>
     <!-- End Google map -->
 
 </section>
@@ -608,7 +628,7 @@ End Contact Us
     <div class="container">
         <div class="row">
 
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
                 <div class="footer-single">
                     <img src="img/footer-logo.png" alt="">
                     <p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -616,19 +636,7 @@ End Contact Us
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
-                 data-wow-delay="300ms">
-                <div class="footer-single">
-                    <h6>Subscribe </h6>
-                    <form action="#" class="subscribe">
-                        <input type="text" name="subscribe" id="subscribe">
-                        <input type="submit" value="&#8594;" id="subs">
-                    </form>
-                    <p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
                  data-wow-delay="600ms">
                 <div class="footer-single">
                     <h6>Explore</h6>
@@ -658,8 +666,7 @@ End Contact Us
         <div class="row">
             <div class="col-md-12">
                 <p class="copyright text-center">
-                    Copyright © 2015 <a href="http://themefisher.com/">Themefisher</a>. All rights reserved. Designed &
-                    developed by <a href="http://themefisher.com/">Themefisher</a>
+                    Copyright © <?php echo date("Y"); ?><a href="http://code.tn/">code.tn</a>
                 </p>
             </div>
         </div>
