@@ -181,9 +181,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3>Branding</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                        <h3>Web Development</h3>
+                        <p>We provide service of web development</p>
                     </div>
                 </div>
             </div>
@@ -197,9 +196,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3>Development</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                        <h3>Training</h3>
+                        <p>We provide training sessions for kids,juniors and adults</p>
                     </div>
                 </div>
             </div>
@@ -213,9 +211,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3>Consulting</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                        <h3>Video Intros</h3>
+                        <p>We provide Video Intros</p>
                     </div>
                 </div>
             </div>
@@ -244,8 +241,7 @@ Our Works
             </div>
 
             <div class="sec-sub-title text-center">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <p>Some of our realisations</p>
             </div>
 
             <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
@@ -357,101 +353,22 @@ Meet Our Team
 ==================================== -->
 
 <section id="team" class="team">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <div class="container">
-        <div class="row">
-
-            <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
-                <h2>Meet Our Team</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-            </div>
-
-            <div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-            </div>
-
-            <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-                    data-wow-duration="500ms">
-                <div class="member-thumb">
-                    <img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                        <h5>voluptatem quia voluptas </h5>
-                        <p>sit aspernatur aut odit aut fugit,</p>
-                        <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        </ul>
-                    </figcaption>
-                </div>
-                <h4>John Filmr Doe</h4>
-                <span>Managing Director</span>
-            </figure>
-            <!-- end single member -->
-
-            <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-                    data-wow-duration="500ms" data-wow-delay="300ms">
-                <div class="member-thumb">
-                    <img src="img/team/member-2.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                        <h5>voluptatem quia voluptas </h5>
-                        <p>sit aspernatur aut odit aut fugit,</p>
-                        <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        </ul>
-                    </figcaption>
-                </div>
-                <h4>Martin Matrone</h4>
-                <span>Lead Developer</span>
-            </figure>
-            <!-- end single member -->
-
-            <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-                    data-wow-duration="500ms" data-wow-delay="600ms">
-                <div class="member-thumb">
-                    <img src="img/team/member-3.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                        <h5>voluptatem quia voluptas </h5>
-                        <p>sit aspernatur aut odit aut fugit,</p>
-                        <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        </ul>
-                    </figcaption>
-                </div>
-                <h4>Steve Flaulkin</h4>
-                <span>Sr. UI Designer</span>
-            </figure>
-            <!-- end single member -->
-
-            <!-- single member -->
-            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-                    data-wow-duration="500ms" data-wow-delay="900ms">
-                <div class="member-thumb">
-                    <img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
-                    <figcaption class="overlay">
-                        <h5>voluptatem quia voluptas </h5>
-                        <p>sit aspernatur aut odit aut fugit,</p>
-                        <ul class="social-links text-center">
-                            <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        </ul>
-                    </figcaption>
-                </div>
-                <h4>John Filmr Doe</h4>
-                <span>Managing Director</span>
-            </figure>
-            <!-- end single member -->
-
-        </div>
+        <h2>Our  Partners</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+            <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+        </section>
     </div>
+
 </section>
 
 <!--
@@ -715,5 +632,31 @@ End Contact Us
 </script>
 <!-- Custom Functions -->
 <script src="js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
 </body>
 </html>
