@@ -82,8 +82,9 @@ Fixed Navigation
                 <li class="current"><a href="#body">Home</a></li>
                 <li><a href="#features">Services</a></li>
                 <li><a href="#works">Work</a></li>
-                <li><a href="#team">Team</a></li>
+                <li><a href="#team">Partners</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li>English | French</li>
             </ul>
         </nav>
         <!-- /main nav -->
@@ -353,22 +354,32 @@ Meet Our Team
 ==================================== -->
 
 <section id="team" class="team">
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <div class="container">
-        <h2>Our  Partners</h2>
-        <section class="customer-logos slider">
-            <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
-            <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
-        </section>
-    </div>
+        <div class="row partners-row">
+            <div class="sec-title text-center">
+                <h2>Partners</h2>
+                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
 
+            <div class="sec-sub-title text-center">
+                <p>Our Partners</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img src="img/partners/partner1.png" height="32"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img src="img/partners/partner2.jfif" height="32"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img src="img/partners/partner3.jpg" height="32"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img src="img/partners/partner4.png" height="32"/>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 <!--
@@ -385,7 +396,7 @@ Some fun facts
             <div class="row number-counters">
 
                 <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-                    <h2>Some Fun Facts</h2>
+                    <h2>Statistics</h2>
                     <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                 </div>
 
@@ -393,36 +404,36 @@ Some fun facts
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
                     <div class="counters-item">
                         <i class="fa fa-clock-o fa-3x"></i>
-                        <strong data-to="3200">0</strong>
+                        <strong data-to="4">Locations</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Hours of Work</p>
+                        <p>Sousse,Tunis ,Ariana &  Bizerte</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                      data-wow-delay="300ms">
                     <div class="counters-item">
                         <i class="fa fa-users fa-3x"></i>
-                        <strong data-to="120">0</strong>
+                        <strong data-to="8">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Satisfied Clients</p>
+                        <p>Partners</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                      data-wow-delay="600ms">
                     <div class="counters-item">
                         <i class="fa fa-rocket fa-3x"></i>
-                        <strong data-to="360">0</strong>
+                        <strong data-to="2000">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p> Projects Delivered </p>
+                        <p> Cups of Coffees </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                      data-wow-delay="900ms">
                     <div class="counters-item">
                         <i class="fa fa-trophy fa-3x"></i>
-                        <strong data-to="6454">0</strong>
+                        <strong data-to="90">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Awards Won</p>
+                        <p>Repositories</p>
                     </div>
                 </div>
                 <!-- end first count item -->
@@ -548,8 +559,7 @@ End Contact Us
             <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
                 <div class="footer-single">
                     <img src="img/footer-logo.png" alt="">
-                    <p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>We provide web training and development</p>
                 </div>
             </div>
 
@@ -561,7 +571,7 @@ End Contact Us
                         <li><a href="#">Inside Us</a></li>
                         <li><a href="#">Flickr</a></li>
                         <li><a href="#">Google</a></li>
-                        <li><a href="#">Forum</a></li>
+                        <li><a href="https://code.tn/forum">Forum</a></li>
                     </ul>
                 </div>
             </div>
@@ -632,31 +642,5 @@ End Contact Us
 </script>
 <!-- Custom Functions -->
 <script src="js/custom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
-            }]
-        });
-    });
-</script>
 </body>
 </html>
