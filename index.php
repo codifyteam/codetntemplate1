@@ -195,7 +195,7 @@ Features
 
                     <div class="service-desc">
                         <h3><?php echo $lang['training'] ?></h3>
-                        <p><?php echo $lang['We provide training sessions for kids,juniors and adults']?></p>
+                        <p><?php echo $lang['We provide training sessions for kids,juniors and adults'] ?></p>
                     </div>
                 </div>
             </div>
@@ -244,11 +244,13 @@ Our Works
 
             <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
                 <ul class="text-center">
-                    <li><a href="javascript:;" data-filter="all" class="active filter"><?php echo $lang['all'] ?></a></li>
-                    <li><a href="javascript:;" data-filter=".branding" class="filter"><?php echo $lang['branding'] ?></a></li>
+                    <li><a href="javascript:;" data-filter="all" class="active filter"><?php echo $lang['all'] ?></a>
+                    </li>
+                    <li><a href="javascript:;" data-filter=".branding"
+                           class="filter"><?php echo $lang['branding'] ?></a></li>
                     <li><a href="javascript:;" data-filter=".web" class="filter"><?php echo $lang['web'] ?></a></li>
-                    <li><a href="javascript:;" data-filter=".logo-design" class="filter"><?php echo $lang['training'] ?></a></li>
-                    <li><a href="javascript:;" data-filter=".photography" class="filter"><?php echo $lang['photography'] ?></a></li>
+                    <li><a href="javascript:;" data-filter=".training"
+                           class="filter"><?php echo $lang['training'] ?></a></li>
                 </ul>
             </div>
 
@@ -257,27 +259,25 @@ Our Works
 
     <div class="project-wrapper">
 
-        <figure class="mix work-item branding">
+        <figure class="mix work-item training">
             <img src="img/works/item-1.jpg" alt="">
             <figcaption class="overlay">
-                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i
+                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                 <h4>Labore et dolore magnam</h4>
                 <p>Photography</p>
             </figcaption>
         </figure>
-
-        <figure class="mix work-item web">
+        <figure class="mix work-item training">
             <img src="img/works/item-2.jpg" alt="">
             <figcaption class="overlay">
-                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i
+                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                 <h4>Labore et dolore magnam</h4>
                 <p>Photography</p>
             </figcaption>
         </figure>
-
-        <figure class="mix work-item logo-design">
+        <figure class="mix work-item training">
             <img src="img/works/item-3.jpg" alt="">
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i
@@ -287,18 +287,8 @@ Our Works
             </figcaption>
         </figure>
 
-        <figure class="mix work-item photography">
-            <img src="img/works/item-4.jpg" alt="">
-            <figcaption class="overlay">
-                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-4.jpg"><i
-                            class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
-            </figcaption>
-        </figure>
-
         <figure class="mix work-item branding">
-            <img src="img/works/item-5.jpg" alt="">
+            <img src="img/works/item-4.jpg" alt="">
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
@@ -308,29 +298,9 @@ Our Works
         </figure>
 
         <figure class="mix work-item web">
-            <img src="img/works/item-6.jpg" alt="">
+            <img src="img/works/item-5.jpg" alt="">
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i
-                            class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
-            </figcaption>
-        </figure>
-
-        <figure class="mix work-item logo-design">
-            <img src="img/works/item-7.jpg" alt="">
-            <figcaption class="overlay">
-                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i
-                            class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
-            </figcaption>
-        </figure>
-
-        <figure class="mix work-item photography">
-            <img src="img/works/item-8.jpg" alt="">
-            <figcaption class="overlay">
-                <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
                 <h4>Labore et dolore magnam</h4>
                 <p>Photography</p>
@@ -482,17 +452,21 @@ Contact Us
                     <form class="contact-form" action="contactform.php" method="post">
                         <div class="input-group name-email">
                             <div class="input-field">
-                                <input type="text" name="name" id="name" placeholder="<?php echo $lang['name'] ?>" class="form-control">
+                                <input type="text" name="name" id="name" placeholder="<?php echo $lang['name'] ?>"
+                                       class="form-control">
                             </div>
                             <div class="input-field">
-                                <input type="email" name="mail" id="email" placeholder="<?php echo $lang['email'] ?>" class="form-control">
+                                <input type="email" name="mail" id="email" placeholder="<?php echo $lang['email'] ?>"
+                                       class="form-control">
                             </div>
                         </div>
                         <div class="input-field">
-                            <input type="text" name="subject" placeholder="<?php echo $lang['subject'] ?>" class="form-control">
+                            <input type="text" name="subject" placeholder="<?php echo $lang['subject'] ?>"
+                                   class="form-control">
                         </div>
                         <div class="input-group">
-                            <textarea name="message" placeholder="<?php echo $lang['message'] ?>" class="form-control"></textarea>
+                            <textarea name="message" placeholder="<?php echo $lang['message'] ?>"
+                                      class="form-control"></textarea>
                         </div>
                         <div class="input-group">
                             <input type="submit" name="<?php echo $lang['submit'] ?>" class="pull-right"/>
