@@ -16,7 +16,7 @@ include "config.php";
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Page Title -->
-    <title><?php echo $lang['title']?></title>
+    <title><?php echo $lang['title'] ?></title>
     <!-- Meta Description -->
     <meta name="description" content="Blue One Page Creative HTML5 Template">
     <meta name="keywords"
@@ -82,16 +82,17 @@ Fixed Navigation
         <!-- main nav -->
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav" class="nav navbar-nav">
-                <li class="current"><a href="#body">Home</a></li>
-                <li><a href="#features">Services</a></li>
-                <li><a href="#works">Work</a></li>
-                <li><a href="#team">Partners</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="current"><a href="#body"><?php echo ucwords($lang['home']) ?></a></li>
+                <li><a href="#features"><?php echo ucwords($lang['services']) ?></a></li>
+                <li><a href="#works"><?php echo ucwords($lang['work']) ?></a></li>
+                <li><a href="#team"><?php echo ucwords($lang['partners']) ?></a></li>
+                <li><a href="#contact"><?php echo ucwords($lang['contact']) ?></a></li>
             </ul>
         </nav>
-        <a href="index.php?lang=en"> English </a>
-        <a href="index.php?lang=fr"> Français </a>
         <!-- /main nav -->
+        <a href="index.php?lang=en"> English </a> |
+        <a href="index.php?lang=fr"> Français </a> |
+        <a href="index.php?lang=ar"> العربية </a>
 
     </div>
 </header>
@@ -174,7 +175,7 @@ Features
         <div class="row">
 
             <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-                <h2>Services</h2>
+                <h2><?php echo ucwords($lang['services']) ?></h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
@@ -186,8 +187,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3>Web Development</h3>
-                        <p>We provide service of web development</p>
+                        <h3><?php echo ucwords($lang['web development']) ?></h3>
+                        <p><?php echo ucwords($lang['we provide service of web development']) ?></p>
                     </div>
                 </div>
             </div>
@@ -201,8 +202,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3>Training</h3>
-                        <p>We provide training sessions for kids,juniors and adults</p>
+                        <h3><?php echo $lang['training'] ?></h3>
+                        <p><?php echo $lang['We provide training sessions for kids,juniors and adults']?></p>
                     </div>
                 </div>
             </div>
@@ -216,8 +217,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3>Video Intros</h3>
-                        <p>We provide Video Intros</p>
+                        <h3><?php echo $lang['video intros'] ?></h3>
+                        <p><?php echo $lang['we provide video intros'] ?></p>
                     </div>
                 </div>
             </div>
@@ -241,21 +242,21 @@ Our Works
         <div class="row">
 
             <div class="sec-title text-center">
-                <h2>Works</h2>
+                <h2><?php echo $lang['works'] ?></h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
             <div class="sec-sub-title text-center">
-                <p>Some of our realisations</p>
+                <p><?php echo $lang['some of our realisations'] ?></p>
             </div>
 
             <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
                 <ul class="text-center">
-                    <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-                    <li><a href="javascript:;" data-filter=".branding" class="filter">Branding</a></li>
-                    <li><a href="javascript:;" data-filter=".web" class="filter">web</a></li>
-                    <li><a href="javascript:;" data-filter=".logo-design" class="filter">Training</a></li>
-                    <li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
+                    <li><a href="javascript:;" data-filter="all" class="active filter"><?php echo $lang['all'] ?></a></li>
+                    <li><a href="javascript:;" data-filter=".branding" class="filter"><?php echo $lang['branding'] ?></a></li>
+                    <li><a href="javascript:;" data-filter=".web" class="filter"><?php echo $lang['web'] ?></a></li>
+                    <li><a href="javascript:;" data-filter=".logo-design" class="filter"><?php echo $lang['training'] ?></a></li>
+                    <li><a href="javascript:;" data-filter=".photography" class="filter"><?php echo $lang['photography'] ?></a></li>
                 </ul>
             </div>
 
@@ -361,12 +362,12 @@ Meet Our Team
     <div class="container">
         <div class="row partners-row">
             <div class="sec-title text-center">
-                <h2>Partners</h2>
+                <h2><?php echo $lang['partners'] ?></h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
             <div class="sec-sub-title text-center">
-                <p>Our Partners</p>
+                <p><?php echo $lang['our partners'] ?></p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3">
@@ -400,7 +401,7 @@ Some fun facts
             <div class="row number-counters">
 
                 <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-                    <h2>Statistics</h2>
+                    <h2><?php echo $lang['statistics'] ?></h2>
                     <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                 </div>
 
@@ -408,9 +409,9 @@ Some fun facts
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
                     <div class="counters-item">
                         <i class="fa fa-clock-o fa-3x"></i>
-                        <strong data-to="4">Locations</strong>
+                        <strong data-to="4"><?php echo $lang['locations'] ?></strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Sousse,Tunis ,Ariana &  Bizerte</p>
+                        <p><?php echo $lang['Sousse,Tunis ,Ariana & Bizerte'] ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
@@ -419,7 +420,7 @@ Some fun facts
                         <i class="fa fa-users fa-3x"></i>
                         <strong data-to="8">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Partners</p>
+                        <p><?php echo $lang['partners'] ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
@@ -428,7 +429,7 @@ Some fun facts
                         <i class="fa fa-rocket fa-3x"></i>
                         <strong data-to="2000">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p> Cups of Coffees </p>
+                        <p><?php echo $lang['cups of coffee'] ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
@@ -437,7 +438,7 @@ Some fun facts
                         <i class="fa fa-trophy fa-3x"></i>
                         <strong data-to="90">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
-                        <p>Repositories</p>
+                        <p><?php echo $lang['repositories'] ?></p>
                     </div>
                 </div>
                 <!-- end first count item -->
@@ -461,48 +462,48 @@ Contact Us
         <div class="row mb50">
 
             <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-                <h2>Let’s Discuss</h2>
+                <h2><?php echo $lang['Let\'s Discuss'] ?></h2>
                 <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
             <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-                <p>You can contact us in order to have more details</p>
+                <p><?php echo $lang['you can contact us in order to have more details'] ?></p>
             </div>
 
             <!-- contact address -->
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
                 <div class="contact-address">
-                    <h3>Join us!</h3>
-                    <p>Immeuble Aoun Sousse</p>
-                    <p>near Carrefour Jawhra</p>
-                    <p>53 52 49 63</p>
+                    <h3><?php echo $lang['Join us!'] ?></h3>
+                    <p><?php echo $lang['Immeuble Aoun Sousse'] ?></p>
+                    <p><?php echo $lang['near Carrefour Jawhra'] ?></p>
+                    <p><?php echo $lang['53 52 49 63'] ?></p>
                     <p>contact@code.tn</p>
                 </div>
             </div>
             <!-- end contact address -->
 
             <!-- contact form -->
-            <p>Send Email</p>
+            <p><?php echo $lang['Send Email'] ?></p>
             <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms"
                  data-wow-delay="300ms">
                 <div class="contact-form">
                     <form class="contact-form" action="contactform.php" method="post">
                         <div class="input-group name-email">
                             <div class="input-field">
-                                <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                                <input type="text" name="name" id="name" placeholder="<?php echo $lang['name'] ?>" class="form-control">
                             </div>
                             <div class="input-field">
-                                <input type="email" name="mail" id="email" placeholder="Email" class="form-control">
+                                <input type="email" name="mail" id="email" placeholder="<?php echo $lang['email'] ?>" class="form-control">
                             </div>
                         </div>
                         <div class="input-field">
-                            <input type="text" name="subject" placeholder="subject" class="form-control">
+                            <input type="text" name="subject" placeholder="<?php echo $lang['subject'] ?>" class="form-control">
                         </div>
                         <div class="input-group">
-                            <textarea name="message" placeholder="message" class="form-control"></textarea>
+                            <textarea name="message" placeholder="<?php echo $lang['message'] ?>" class="form-control"></textarea>
                         </div>
                         <div class="input-group">
-                            <input type="submit" name="submit" class="pull-right"/>
+                            <input type="submit" name="<?php echo $lang['submit'] ?>" class="pull-right"/>
                         </div>
                     </form>
                 </div>
@@ -563,14 +564,14 @@ End Contact Us
             <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
                 <div class="footer-single">
                     <img src="img/footer-logo.png" alt="">
-                    <p>We provide web training and development</p>
+                    <p><?php echo $lang['we provide web training and development'] ?></p>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
                  data-wow-delay="600ms">
                 <div class="footer-single">
-                    <h6>Explore</h6>
+                    <h6><?php echo $lang['explore'] ?></h6>
                     <ul>
                         <li><a href="#">Inside Us</a></li>
                         <li><a href="#">Flickr</a></li>
