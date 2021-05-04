@@ -82,9 +82,9 @@ Fixed Navigation
             </ul>
         </nav>
         <!-- /main nav -->
-        <a href="index.php?lang=en"> English </a> |
-        <a href="index.php?lang=fr"> Français </a> |
-        <a href="index.php?lang=ar"> العربية </a>
+        <a href="index.php?lang=en"><img height="32" src="img/flags/um.svg"/></a> |
+        <a href="index.php?lang=fr"><img height="32" src="img/flags/fr.svg"/></a> |
+        <a href="index.php?lang=ar"><img height="32" src="img/flags/tn.svg"/> </a>
 
     </div>
 </header>
@@ -354,6 +354,106 @@ End Meet Our Team
 ==================================== -->
 
 <!--
+Pricing
+==================================== -->
+
+<section id="team" class="team">
+    <div class="container">
+        <div class="row partners-row">
+            <div class="sec-title text-center">
+                <h2><?php echo $lang['pricing tables'] ?></h2>
+                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+            </div>
+
+            <div class="sec-sub-title text-center">
+                <p><?php echo $lang['our prices'] ?></p>
+            </div>
+
+            <div class="pricing-table">
+                <div class="ptable-item">
+                    <div class="ptable-single">
+                        <div class="ptable-header">
+                            <div class="ptable-title">
+                                <h2><?php echo $lang['one page'] ?></h2>
+                            </div>
+                            <div class="ptable-price">
+                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['onepage-price']?></h2>
+                            </div>
+                        </div>
+                        <div class="ptable-body">
+                            <div class="ptable-description">
+                                <ul>
+                                    <li><?php echo $lang['CMS user friendly']?></li>
+                                    <li><?php echo $lang['3 months Free Assistance']?></li>
+                                    <li><?php echo $lang['Responsive Design']?></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ptable-footer">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ptable-item featured-item">
+                    <div class="ptable-single">
+                        <div class="ptable-header">
+                            <div class="ptable-title">
+                                <h2><?php echo $lang['real estate'] ?></h2>
+                            </div>
+                            <div class="ptable-price">
+                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['immo-price']?></h2>
+                            </div>
+                        </div>
+                        <div class="ptable-body">
+                            <div class="ptable-description">
+                                <ul>
+                                    <li><?php echo $lang['CMS user friendly']?></li>
+                                    <li><?php echo $lang['3 months Free Assistance']?></li>
+                                    <li><?php echo $lang['Responsive Design']?></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ptable-footer">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ptable-item">
+                    <div class="ptable-single">
+                        <div class="ptable-header">
+                            <div class="ptable-title">
+                                <h2><?php echo $lang['ecommerce'] ?></h2>
+                            </div>
+                            <div class="ptable-price">
+                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['ecommerce-price']?></h2>
+                            </div>
+                        </div>
+                        <div class="ptable-body">
+                            <div class="ptable-description">
+                                <ul>
+                                    <li><?php echo $lang['CMS user friendly']?></li>
+                                    <li><?php echo $lang['3 months Free Assistance']?></li>
+                                    <li><?php echo $lang['Responsive Design']?></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ptable-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--
+End Pricing
+==================================== -->
+
+<!--
 Some fun facts
 ==================================== -->
 
@@ -370,7 +470,7 @@ Some fun facts
                 <!-- first count item -->
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
                     <div class="counters-item">
-                        <i class="fa fa-clock-o fa-3x"></i>
+                        <i class="fa fa-map-marker fa-3x"></i>
                         <strong data-to="4"><?php echo $lang['locations'] ?></strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
                         <p><?php echo $lang['Sousse,Tunis ,Ariana & Bizerte'] ?></p>
@@ -388,7 +488,7 @@ Some fun facts
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                      data-wow-delay="600ms">
                     <div class="counters-item">
-                        <i class="fa fa-rocket fa-3x"></i>
+                        <i class="fa fa-coffee fa-3x"></i>
                         <strong data-to="2000">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
                         <p><?php echo $lang['cups of coffee'] ?></p>
