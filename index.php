@@ -69,14 +69,6 @@ Fixed Navigation
                 <i class="fa fa-bars fa-2x"></i>
             </button>
             <!-- /responsive nav button -->
-
-            <!-- logo -->
-            <a class="navbar-brand" href="#body">
-                <h1 id="logo">
-                    <img src="img/logo.png" alt="code.tn">
-                </h1>
-            </a>
-            <!-- /logo -->
         </div>
 
         <!-- main nav -->
