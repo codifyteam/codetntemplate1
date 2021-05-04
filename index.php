@@ -1,3 +1,6 @@
+<?php
+include "config.php";
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -13,7 +16,7 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Page Title -->
-    <title>code.tn</title>
+    <title><?php echo $lang['title']?></title>
     <!-- Meta Description -->
     <meta name="description" content="Blue One Page Creative HTML5 Template">
     <meta name="keywords"
@@ -84,9 +87,10 @@ Fixed Navigation
                 <li><a href="#works">Work</a></li>
                 <li><a href="#team">Partners</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li>English | French</li>
             </ul>
         </nav>
+        <a href="index.php?lang=en"> English </a>
+        <a href="index.php?lang=fr"> Français </a>
         <!-- /main nav -->
 
     </div>
