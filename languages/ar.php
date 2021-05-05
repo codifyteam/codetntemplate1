@@ -50,4 +50,5 @@ $lang=array(
     'CMS user friendly' => 'لوحة تكم سهلة',
     '3 months Free Assistance' => '3 أشهر دعم مجاني',
     'Responsive Design' => 'تصميم متوافق مع جميع الأجهزة',
+    'mobile development'=>'تصميم الموبايل'
 );

@@ -74,11 +74,11 @@ Fixed Navigation
         <!-- main nav -->
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav" class="nav navbar-nav">
-                <li class="current"><a href="#body"><?php echo ucwords($lang['home']) ?></a></li>
-                <li><a href="#features"><?php echo ucwords($lang['services']) ?></a></li>
-                <li><a href="#works"><?php echo ucwords($lang['work']) ?></a></li>
-                <li><a href="#team"><?php echo ucwords($lang['partners']) ?></a></li>
-                <li><a href="#contact"><?php echo ucwords($lang['contact']) ?></a></li>
+                <li class="current"><a href="#body"><strong><?php echo ucwords($lang['home']) ?></strong></a></li>
+                <li><a href="#features"><strong><?php echo ucwords($lang['services']) ?></strong></a></li>
+                <li><a href="#works"><strong><?php echo ucwords($lang['work']) ?></strong></a></li>
+                <li><a href="#team"><strong><?php echo ucwords($lang['partners']) ?></strong></a></li>
+                <li><a href="#contact"><strong><?php echo ucwords($lang['contact']) ?></strong></a></li>
             </ul>
         </nav>
         <!-- /main nav -->
@@ -120,10 +120,7 @@ Home Slider
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -132,17 +129,14 @@ Home Slider
             <!-- single slide -->
             <div class="item" style="background-image: url(img/banner.jpg);">
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!
+                    <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> code.tn</span>!
                     </h2>
-                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span>
-                        one page template.</h3>
+                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color"><?php echo $lang['web']?></span>
+                        & <?php echo $lang['mobile development']?></h3>
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -194,7 +188,7 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3><?php echo $lang['training'] ?></h3>
+                        <h3><?php echo ucwords($lang['training']) ?></h3>
                         <p><?php echo $lang['We provide training sessions for kids,juniors and adults'] ?></p>
                     </div>
                 </div>
@@ -209,8 +203,8 @@ Features
                     </div>
 
                     <div class="service-desc">
-                        <h3><?php echo $lang['video intros'] ?></h3>
-                        <p><?php echo $lang['we provide video intros'] ?></p>
+                        <h3><?php echo ucwords($lang['video intros']) ?></h3>
+                        <p><?php echo ucwords($lang['we provide video intros']) ?></p>
                     </div>
                 </div>
             </div>
@@ -581,10 +575,7 @@ Contact Us
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms"
                  data-wow-delay="600ms">
                 <ul class="footer-social">
-                    <li><a href="https://www.behance.net/Themefisher"><i class="fa fa-behance fa-2x"></i></a></li>
-                    <li><a href="https://www.twitter.com/Themefisher"><i class="fa fa-twitter fa-2x"></i></a></li>
-                    <li><a href="https://dribbble.com/themefisher"><i class="fa fa-dribbble fa-2x"></i></a></li>
-                    <li><a href="https://www.facebook.com/Themefisher"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-2x"></i></a></li>
                 </ul>
             </div>
             <!-- end footer social links -->

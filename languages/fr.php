@@ -50,4 +50,5 @@ $lang=array(
     'CMS user friendly' => 'CMS Simple à utiliser',
     '3 months Free Assistance' => '3 Assistance Gratuit',
     'Responsive Design' => 'Design Responsive',
+    'mobile development'=>'développement mobile'
 );
