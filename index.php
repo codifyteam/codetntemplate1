@@ -497,7 +497,7 @@ Some fun facts
                 <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                      data-wow-delay="900ms">
                     <div class="counters-item">
-                        <i class="fa fa-trophy fa-3x"></i>
+                        <i class="fa fa-github fa-3x"></i>
                         <strong data-to="90">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
                         <p><?php echo $lang['repositories'] ?></p>
