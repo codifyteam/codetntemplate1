@@ -11,6 +11,8 @@ include "config.php";
 <!--[if gt IE 8]><!-->
 <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
+    <!--Favicon ico-->
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <!-- meta charec set -->
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -53,7 +55,13 @@ include "config.php";
 
 <!-- preloader -->
 <div id="preloader">
-    <img src="img/preloader.gif" alt="Preloader">
+    <div class="preload">
+        <img class="airplane" src="./img/airplane.png" alt="airplane">
+        <h3 class="typewriter">Loading...</h3>
+        <img class="cloud1" src="./img/cloud.png" alt="cloud1">
+        <img class="cloud2" src="./img/cloud.png" alt="cloud2">
+        <img class="cloud3" src="./img/cloud.png" alt="cloud3">
+    </div>
 </div>
 <!-- end preloader -->
 
@@ -82,9 +90,10 @@ Fixed Navigation
             </ul>
         </nav>
         <!-- /main nav -->
+        <a href="index.php?lang=ar"><img height="32" src="img/flags/tn.svg"/> </a> |
         <a href="index.php?lang=en"><img height="32" src="img/flags/um.svg"/></a> |
-        <a href="index.php?lang=fr"><img height="32" src="img/flags/fr.svg"/></a> |
-        <a href="index.php?lang=ar"><img height="32" src="img/flags/tn.svg"/> </a>
+        <a href="index.php?lang=fr"><img height="32" src="img/flags/fr.svg"/></a>
+
 
     </div>
 </header>
@@ -113,7 +122,7 @@ Home Slider
             <!-- single slide -->
             <div class="item active" style="background-image: url(img/banner.jpg);">
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> code.tn</span>!
+                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> code.tn</span>!
                     </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
                         Coding and Training Agency</h3>
@@ -529,11 +538,11 @@ Contact Us
             <!-- contact address -->
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
                 <div class="contact-address">
-                    <h3><?php echo $lang['Join us!'] ?></h3>
+                    <h3><?php echo ucwords($lang['join us!']) ?></h3>
                     <p><?php echo $lang['Immeuble Aoun Sousse'] ?></p>
                     <p><?php echo $lang['near Carrefour Jawhra'] ?></p>
                     <p><?php echo $lang['53 52 49 63'] ?></p>
-                    <p>contact@code.tn</p>
+                    <span>contact@code.tn</span>
                 </div>
             </div>
             <!-- end contact address -->
@@ -618,35 +627,20 @@ End Contact Us
     <div class="container">
         <div class="row">
 
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
                 <div class="footer-single">
-                    <img src="img/footer-logo.png" alt="">
-                    <p><?php echo $lang['we provide web training and development'] ?></p>
+                    <img height="100px" src="img/footer-logo.png" alt="codetn logo"/>
+                    <p class="firstparafooter"><?php echo $lang['we provide web training and development'] ?></p>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
+            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
                  data-wow-delay="600ms">
                 <div class="footer-single">
                     <h6><?php echo $lang['explore'] ?></h6>
                     <ul>
-                        <li><a href="#">Inside Us</a></li>
-                        <li><a href="#">Flickr</a></li>
-                        <li><a href="#">Google</a></li>
+                        <li><a href="https://github.com/ahmedch1">Github</a></li>
                         <li><a href="https://code.tn/forum">Forum</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
-                 data-wow-delay="900ms">
-                <div class="footer-single">
-                    <h6>Support</h6>
-                    <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Market Blog</a></li>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Pressroom</a></li>
                     </ul>
                 </div>
             </div>
@@ -655,7 +649,7 @@ End Contact Us
         <div class="row">
             <div class="col-md-12">
                 <p class="copyright text-center">
-                    Copyright © <?php echo date("Y"); ?><a href="http://code.tn/">code.tn</a>
+                    Copyright © <?php echo date("Y"); ?> <a href="http://code.tn/">code.tn</a>
                 </p>
             </div>
         </div>

@@ -4,7 +4,7 @@
 
 jQuery(window).load(function(){
 
-	$("#preloader").fadeOut("slow");
+	$("#preloader").fadeOut("fast");
 
 });
 
@@ -149,3 +149,19 @@ function initialize() {
 
 google.maps.event.addDomListener(window, "load", initialize);
 // ========== END GOOGLE MAP ========== //
+
+//get rid of preloader after specific time
+
+setTimeout(function () {
+    FetchData();
+}, 2000);
+function FetchData() {
+    const preload = document.querySelector(".preload");
+    preload.classList.add("preload-finish");
+}
+
+/*get rid of preloader after window loading*/
+/*window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});*/
