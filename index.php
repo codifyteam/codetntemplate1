@@ -267,8 +267,8 @@ Our Works
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
+                <h4>1</h4>
+                <p>1</p>
             </figcaption>
         </figure>
         <figure class="mix work-item training">
@@ -276,8 +276,8 @@ Our Works
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
+                <h4>2</h4>
+                <p>2</p>
             </figcaption>
         </figure>
         <figure class="mix work-item training">
@@ -285,8 +285,8 @@ Our Works
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
+                <h4>3</h4>
+                <p>3</p>
             </figcaption>
         </figure>
 
@@ -295,8 +295,8 @@ Our Works
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
+                <h4>4</h4>
+                <p>4</p>
             </figcaption>
         </figure>
 
@@ -305,8 +305,8 @@ Our Works
             <figcaption class="overlay">
                 <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i
                             class="fa fa-eye fa-lg"></i></a>
-                <h4>Labore et dolore magnam</h4>
-                <p>Photography</p>
+                <h4>5</h4>
+                <p>5</p>
             </figcaption>
         </figure>
 
@@ -336,16 +336,16 @@ Meet Our Team
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="img/partners/partner1.png" height="32"/>
+                <img src="img/partners/partner1.png" height="100"/>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="img/partners/partner2.jfif" height="32"/>
+                <img src="img/partners/partner2.png" height="100"/>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="img/partners/partner3.jpg" height="32"/>
+                <img src="img/partners/partner3.jpg" height="100"/>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
-                <img src="img/partners/partner4.png" height="32"/>
+                <img src="img/partners/partner4.png" height="100"/>
             </div>
 
         </div>
