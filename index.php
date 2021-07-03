@@ -122,7 +122,7 @@ Home Slider
             <!-- single slide -->
             <div class="item active" style="background-image: url(img/banner.jpg);">
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> code.tn</span>!
+                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> codifyTeam</span>!
                     </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
                         Coding and Training Agency</h3>
@@ -138,7 +138,7 @@ Home Slider
             <!-- single slide -->
             <div class="item" style="background-image: url(img/banner.jpg);">
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> code.tn</span>!
+                    <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> codifyTeam</span>!
                     </h2>
                     <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color"><?php echo $lang['web']?></span>
                         & <?php echo $lang['mobile development']?></h3>
@@ -649,7 +649,7 @@ End Contact Us
         <div class="row">
             <div class="col-md-12">
                 <p class="copyright text-center">
-                    Copyright © <?php echo date("Y"); ?> <a href="http://code.tn/">code.tn</a>
+                    Copyright © <?php echo date("Y"); ?> <a href="http://code.tn/">codifyTeam</a>
                 </p>
             </div>
         </div>

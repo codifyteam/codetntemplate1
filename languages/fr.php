@@ -1,6 +1,6 @@
 <?php
 $lang=array(
-    "title"=>"Siteweb de code.tn",
+    "title"=>"Siteweb de codifyTeam",
     "home"=>"accueil",
     "services"=>"services",
     "work"=>"portfolio",
