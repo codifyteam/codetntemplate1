@@ -40,6 +40,14 @@ body {
 
 /*cursor effects*/
 
+
+/*Flag */
+.flag {
+    border-radius: 53px;
+    margin-top: 8px;
+}
+
+/*Flag*/
 ol, ul {
     margin: 0;
     padding: 0;

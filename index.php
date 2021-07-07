@@ -90,9 +90,9 @@ Fixed Navigation
             </ul>
         </nav>
         <!-- /main nav -->
-        <a href="index.php?lang=ar"><img height="32" src="img/flags/tn.svg"/> </a> |
-        <a href="index.php?lang=en"><img height="32" src="img/flags/um.svg"/></a> |
-        <a href="index.php?lang=fr"><img height="32" src="img/flags/fr.svg"/></a>
+        <a href="index.php?lang=ar"><img class="flag" alt="arabe" height="32" src="img/flags/tn.svg"/> </a> |
+        <a href="index.php?lang=en"><img class="flag" alt="francais" height="32" src="img/flags/um.svg"/></a> |
+        <a href="index.php?lang=fr"><img class="flag" alt="anglais" height="32" src="img/flags/fr.svg"/></a>
 
 
     </div>
@@ -713,7 +713,33 @@ End Contact Us
             + "px; top: " + e.clientY + "px;";
     })
 </script>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
 
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "105316935157451");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v11.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 </body>
 </html>
