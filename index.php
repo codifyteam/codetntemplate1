@@ -12,7 +12,7 @@ include "config.php";
 <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
     <!--Favicon ico-->
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
     <!-- meta charec set -->
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -93,9 +93,9 @@ Fixed Navigation
             </ul>
         </nav>
         <!-- /main nav -->
-        <a href="index.php?lang=ar"><img height="32" src="img/flags/tn.svg"/> </a> |
-        <a href="index.php?lang=en"><img height="32" src="img/flags/um.svg"/></a> |
-        <a href="index.php?lang=fr"><img height="32" src="img/flags/fr.svg"/></a>
+        <a href="index.php?lang=ar"><img class="flag" alt="arabe" height="32" src="img/flags/tn.svg"/> </a> |
+        <a href="index.php?lang=en"><img class="flag" alt="francais" height="32" src="img/flags/um.svg"/></a> |
+        <a href="index.php?lang=fr"><img class="flag" alt="anglais" height="32" src="img/flags/fr.svg"/></a>
 
 
     </div>
@@ -134,7 +134,8 @@ Home Slider
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -145,12 +146,14 @@ Home Slider
                 <div class="carousel-caption">
                     <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> codifyTeam</span>!
                     </h2>
-                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color"><?php echo $lang['web']?></span>
-                        & <?php echo $lang['mobile development']?></h3>
+                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span
+                                class="color"><?php echo $lang['web'] ?></span>
+                        & <?php echo $lang['mobile development'] ?></h3>
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -176,7 +179,7 @@ Features
 
             <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
                 <h2><?php echo ucwords($lang['services']) ?></h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                <div class="devider"><i class="fa fa-heart fa-lg"></i></div>
             </div>
 
             <!-- service item -->
@@ -385,15 +388,15 @@ Pricing
                                 <h2><?php echo $lang['one page'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['onepage-price']?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['onepage-price'] ?></h2>
                             </div>
                         </div>
                         <div class="ptable-body">
                             <div class="ptable-description">
                                 <ul>
-                                    <li><?php echo $lang['CMS user friendly']?></li>
-                                    <li><?php echo $lang['3 months Free Assistance']?></li>
-                                    <li><?php echo $lang['Responsive Design']?></li>
+                                    <li><?php echo $lang['CMS user friendly'] ?></li>
+                                    <li><?php echo $lang['3 months Free Assistance'] ?></li>
+                                    <li><?php echo $lang['Responsive Design'] ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -410,15 +413,15 @@ Pricing
                                 <h2><?php echo $lang['real estate'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['immo-price']?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['immo-price'] ?></h2>
                             </div>
                         </div>
                         <div class="ptable-body">
                             <div class="ptable-description">
                                 <ul>
-                                    <li><?php echo $lang['CMS user friendly']?></li>
-                                    <li><?php echo $lang['3 months Free Assistance']?></li>
-                                    <li><?php echo $lang['Responsive Design']?></li>
+                                    <li><?php echo $lang['CMS user friendly'] ?></li>
+                                    <li><?php echo $lang['3 months Free Assistance'] ?></li>
+                                    <li><?php echo $lang['Responsive Design'] ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -435,15 +438,16 @@ Pricing
                                 <h2><?php echo $lang['ecommerce'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['ecommerce-price']?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['ecommerce-price'] ?>
+                                </h2>
                             </div>
                         </div>
                         <div class="ptable-body">
                             <div class="ptable-description">
                                 <ul>
-                                    <li><?php echo $lang['CMS user friendly']?></li>
-                                    <li><?php echo $lang['3 months Free Assistance']?></li>
-                                    <li><?php echo $lang['Responsive Design']?></li>
+                                    <li><?php echo $lang['CMS user friendly'] ?></li>
+                                    <li><?php echo $lang['3 months Free Assistance'] ?></li>
+                                    <li><?php echo $lang['Responsive Design'] ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -544,10 +548,6 @@ Contact Us
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
                 <div class="contact-address">
                     <h3><?php echo ucwords($lang['join us!']) ?></h3>
-                    <p><?php echo $lang['Immeuble Aoun Sousse'] ?></p>
-                    <p><?php echo $lang['near Carrefour Jawhra'] ?></p>
-                    <p><?php echo $lang['53 52 49 63'] ?></p>
-                    <span>contact@code.tn</span>
                 </div>
             </div>
             <!-- end contact address -->
@@ -601,16 +601,16 @@ Contact Us
     <div class="mapouter">
         <div class="gmap_canvas">
             <iframe width="100%" height="500" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=carrefour%20jawhra&t=&z=19&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://fmovies2.org"></a><br>
+                    src="https://maps.google.com/maps?q=Ariana&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://putlocker-is.org"></a><br>
             <style>.mapouter {
                     position: relative;
                     text-align: right;
                     height: 500px;
                     width: 100%;
                 }</style>
-            <a href="https://www.embedgooglemap.net">google map api for website</a>
+            <a href="https://www.embedgooglemap.net">google map for free</a>
             <style>.gmap_canvas {
                     overflow: hidden;
                     background: none !important;
@@ -644,8 +644,7 @@ End Contact Us
                 <div class="footer-single">
                     <h6><?php echo $lang['explore'] ?></h6>
                     <ul>
-                        <li><a href="https://github.com/ahmedch1">Github</a></li>
-                        <li><a href="https://code.tn/forum">Forum</a></li>
+                        <li><a href="https://github.com/codifyteam">Github</a></li>
                     </ul>
                 </div>
             </div>
