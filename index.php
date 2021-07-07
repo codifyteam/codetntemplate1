@@ -544,10 +544,6 @@ Contact Us
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
                 <div class="contact-address">
                     <h3><?php echo ucwords($lang['join us!']) ?></h3>
-                    <p><?php echo $lang['Immeuble Aoun Sousse'] ?></p>
-                    <p><?php echo $lang['near Carrefour Jawhra'] ?></p>
-                    <p><?php echo $lang['53 52 49 63'] ?></p>
-                    <span>contact@code.tn</span>
                 </div>
             </div>
             <!-- end contact address -->
