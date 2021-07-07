@@ -45,7 +45,7 @@ include "config.php";
     <link rel="stylesheet" href="css/main.css">
     <!-- media-queries -->
     <link rel="stylesheet" href="css/media-queries.css">
-
+    <link rel="stylesheet" href="css/banner.css">
     <!-- Modernizer Script for old Browsers -->
     <script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -68,6 +68,9 @@ include "config.php";
 <!--
 Fixed Navigation
 ==================================== -->
+<div id="particles-background" class="vertical-centered-box " ></div>
+<div id="particles-foreground" class="vertical-centered-box " ></div>
+
 <header id="navigation" class="navbar-fixed-top navbar">
     <div class="container">
         <div class="navbar-header">
@@ -105,7 +108,6 @@ End Fixed Navigation
 <!--
 Home Slider
 ==================================== -->
-
 <section id="slider">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
@@ -120,9 +122,12 @@ Home Slider
         <div class="carousel-inner" role="listbox">
 
             <!-- single slide -->
-            <div class="item active" style="background-image: url(img/banner.jpg);">
+            <div class="item active" >
+
+            
+            
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> codifyTeam</span>!
+                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> CodifyTeam</span>!
                     </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
                         Coding and Training Agency</h3>
@@ -136,7 +141,7 @@ Home Slider
             <!-- end single slide -->
 
             <!-- single slide -->
-            <div class="item" style="background-image: url(img/banner.jpg);">
+            <div class="item">
                 <div class="carousel-caption">
                     <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> codifyTeam</span>!
                     </h2>
@@ -698,5 +703,6 @@ End Contact Us
 </script>
 <!-- Custom Functions -->
 <script src="js/custom.js"></script>
+<script src="js/banner.js"></script>
 </body>
 </html>
