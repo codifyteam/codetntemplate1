@@ -597,16 +597,16 @@ Contact Us
     <div class="mapouter">
         <div class="gmap_canvas">
             <iframe width="100%" height="500" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=carrefour%20jawhra&t=&z=19&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://fmovies2.org"></a><br>
+                    src="https://maps.google.com/maps?q=Ariana&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://putlocker-is.org"></a><br>
             <style>.mapouter {
                     position: relative;
                     text-align: right;
                     height: 500px;
                     width: 100%;
                 }</style>
-            <a href="https://www.embedgooglemap.net">google map api for website</a>
+            <a href="https://www.embedgooglemap.net">google map for free</a>
             <style>.gmap_canvas {
                     overflow: hidden;
                     background: none !important;
@@ -720,17 +720,18 @@ End Contact Us
     chatbox.setAttribute("page_id", "105316935157451");
     chatbox.setAttribute("attribution", "biz_inbox");
 
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
         FB.init({
-            xfbml            : true,
-            version          : 'v11.0'
+            xfbml: true,
+            version: 'v11.0'
         });
     };
 
-    (function(d, s, id) {
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
