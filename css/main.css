@@ -1,4 +1,4 @@
-/* =================================== */
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap'); /* =================================== */
 /*	Basic Style 
 /* =================================== */
 
@@ -96,7 +96,7 @@ h4, h5, h6 {
 }
 
 span.color {
-    color: #ff0000;
+    color: #00458b;
 }
 
 body > section,
@@ -108,7 +108,7 @@ body > section,
 }
 
 .sec-title h2 {
-    color: #ff0000;
+    color: #00458b;
     font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;
@@ -194,7 +194,8 @@ body > section,
 
 .navbar-nav li a {
     border-top: 1px solid transparent;
-    font-size: 20px;
+    font-size: 26px;
+    font-family: 'Vibes', cursive;
 }
 
 .navbar-nav li a.current,
@@ -245,7 +246,7 @@ body > section,
 
 .carousel-caption p:before,
 .carousel-caption p:after {
-    color: #ff0000;
+    color: #00458b;
     content: "___";
     position: relative;
     top: -8px;
@@ -332,9 +333,9 @@ body > section,
 }
 
 .service-icon {
-    border: 1px solid #ff0000;
+    border: 1px solid #00458b;
     border-radius: 50%;
-    color: #ff0000;
+    color: #00458b;
     float: left;
     padding: 10px 13px;
 }
@@ -377,7 +378,7 @@ body > section,
 
 .work-filter ul li a:hover,
 .work-filter ul li a.active {
-    background-color: #ff0000;
+    background-color: #00458b;
     border-radius: 6px;
     color: #fff;
     padding: 5px 17px;
@@ -503,7 +504,7 @@ body > section,
 }
 
 .team-member:hover h4 {
-    color: #ff0000;
+    color: #00458b;
 }
 
 .team-member .social-links {
@@ -679,7 +680,7 @@ label.error {
 }
 
 .footer a:hover {
-    color: #ff0000;
+    color: #00458b;
 }
 
 .footer h6 {
