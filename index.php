@@ -128,6 +128,8 @@ Home Slider
             
                 <div class="carousel-caption">
                     <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> CodifyTeam</span>!
+                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">
+                        Meet<span> codifyTeam</span>!
                     </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
                         Coding and Training Agency</h3>
@@ -703,5 +705,44 @@ End Contact Us
 <!-- Custom Functions -->
 <script src="js/custom.js"></script>
 <script src="js/banner.js"></script>
+<div class="cursor"></div>
+<div class="cursor2"></div>
+<script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX
+            + "px; top: " + e.clientY + "px;";
+    })
+</script>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "105316935157451");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v11.0'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
 </body>
 </html>
