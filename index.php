@@ -124,13 +124,8 @@ Home Slider
             <!-- single slide -->
             <div class="item active" >
 
-            
-            
                 <div class="carousel-caption">
                     <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> CodifyTeam</span>!
-                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">
-                        Meet<span> codifyTeam</span>!
-                    </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
                         Coding and Training Agency</h3>
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
