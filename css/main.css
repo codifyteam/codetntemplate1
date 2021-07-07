@@ -11,6 +11,15 @@ body {
     cursor: pointer;
 }
 
+
+/* Font Awesome Style */
+.fa-lg {
+    font-size: 38px;
+    color: #ffffff;
+}
+
+/* Font Awesome Style */
+
 /*cursor effects*/
 .cursor {
     position: fixed;
@@ -138,7 +147,8 @@ body > section,
 }
 
 .devider i {
-    color: #cccccc;
+    color: #ff0000;
+    font-size: 32px;
 }
 
 .devider:before,

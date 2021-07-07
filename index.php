@@ -175,7 +175,7 @@ Features
 
             <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
                 <h2><?php echo ucwords($lang['services']) ?></h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                <div class="devider"><i class="fa fa-heart fa-lg"></i></div>
             </div>
 
             <!-- service item -->
@@ -644,8 +644,7 @@ End Contact Us
                 <div class="footer-single">
                     <h6><?php echo $lang['explore'] ?></h6>
                     <ul>
-                        <li><a href="https://github.com/ahmedch1">Github</a></li>
-                        <li><a href="https://code.tn/forum">Forum</a></li>
+                        <li><a href="https://github.com/codifyteam">Github</a></li>
                     </ul>
                 </div>
             </div>
