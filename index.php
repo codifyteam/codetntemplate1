@@ -12,7 +12,7 @@ include "config.php";
 <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
     <!--Favicon ico-->
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
     <!-- meta charec set -->
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -122,14 +122,16 @@ Home Slider
             <!-- single slide -->
             <div class="item active" style="background-image: url(img/banner.jpg);">
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> codifyTeam</span>!
+                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">
+                        Meet<span> codifyTeam</span>!
                     </h2>
                     <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
                         Coding and Training Agency</h3>
                     <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -140,12 +142,14 @@ Home Slider
                 <div class="carousel-caption">
                     <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> codifyTeam</span>!
                     </h2>
-                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color"><?php echo $lang['web']?></span>
-                        & <?php echo $lang['mobile development']?></h3>
+                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span
+                                class="color"><?php echo $lang['web'] ?></span>
+                        & <?php echo $lang['mobile development'] ?></h3>
                     <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
 
                     <ul class="social-links text-center">
-                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -380,15 +384,15 @@ Pricing
                                 <h2><?php echo $lang['one page'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['onepage-price']?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['onepage-price'] ?></h2>
                             </div>
                         </div>
                         <div class="ptable-body">
                             <div class="ptable-description">
                                 <ul>
-                                    <li><?php echo $lang['CMS user friendly']?></li>
-                                    <li><?php echo $lang['3 months Free Assistance']?></li>
-                                    <li><?php echo $lang['Responsive Design']?></li>
+                                    <li><?php echo $lang['CMS user friendly'] ?></li>
+                                    <li><?php echo $lang['3 months Free Assistance'] ?></li>
+                                    <li><?php echo $lang['Responsive Design'] ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -405,15 +409,15 @@ Pricing
                                 <h2><?php echo $lang['real estate'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['immo-price']?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['immo-price'] ?></h2>
                             </div>
                         </div>
                         <div class="ptable-body">
                             <div class="ptable-description">
                                 <ul>
-                                    <li><?php echo $lang['CMS user friendly']?></li>
-                                    <li><?php echo $lang['3 months Free Assistance']?></li>
-                                    <li><?php echo $lang['Responsive Design']?></li>
+                                    <li><?php echo $lang['CMS user friendly'] ?></li>
+                                    <li><?php echo $lang['3 months Free Assistance'] ?></li>
+                                    <li><?php echo $lang['Responsive Design'] ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -430,15 +434,16 @@ Pricing
                                 <h2><?php echo $lang['ecommerce'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from']?></small><?php echo $lang['ecommerce-price']?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['ecommerce-price'] ?>
+                                </h2>
                             </div>
                         </div>
                         <div class="ptable-body">
                             <div class="ptable-description">
                                 <ul>
-                                    <li><?php echo $lang['CMS user friendly']?></li>
-                                    <li><?php echo $lang['3 months Free Assistance']?></li>
-                                    <li><?php echo $lang['Responsive Design']?></li>
+                                    <li><?php echo $lang['CMS user friendly'] ?></li>
+                                    <li><?php echo $lang['3 months Free Assistance'] ?></li>
+                                    <li><?php echo $lang['Responsive Design'] ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -698,5 +703,17 @@ End Contact Us
 </script>
 <!-- Custom Functions -->
 <script src="js/custom.js"></script>
+<div class="cursor"></div>
+<div class="cursor2"></div>
+<script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX
+            + "px; top: " + e.clientY + "px;";
+    })
+</script>
+
+
 </body>
 </html>
