@@ -84,8 +84,8 @@ function conversioncurrency($amount, $currency_from, $currency_to)
 <!--
 Fixed Navigation
 ==================================== -->
-<div id="particles-background" class="vertical-centered-box " ></div>
-<div id="particles-foreground" class="vertical-centered-box " ></div>
+<div id="particles-background" class="vertical-centered-box "></div>
+<div id="particles-foreground" class="vertical-centered-box "></div>
 
 <header id="navigation" class="navbar-fixed-top navbar">
     <div class="container">
@@ -138,18 +138,21 @@ Home Slider
         <div class="carousel-inner" role="listbox">
 
             <!-- single slide -->
-            <div class="item active" >
+            <div class="item active">
 
                 <div class="carousel-caption">
-                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">Meet<span> CodifyTeam</span>!
-                    <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span>
-                        Coding and Training Agency</h3>
-                    <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
+                    <h2 data-wow-duration="1500ms" data-wow-delay="500ms" class="typewriter wow bounceInDown animated">
+                        Meet<span> CodifyTeam</span>!
+                        <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span
+                                    class="color">/creative</span>
+                            Coding and Training Agency</h3>
+                        <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of
+                            professionals</p>
 
-                    <ul class="social-links text-center">
-                        <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a>
-                        </li>
-                    </ul>
+                        <ul class="social-links text-center">
+                            <li><a href="https://www.facebook.com/codetunisia/"><i class="fa fa-facebook fa-lg"></i></a>
+                            </li>
+                        </ul>
                 </div>
             </div>
             <!-- end single slide -->
@@ -437,9 +440,17 @@ Pricing
                                 <h2><?php echo $lang['real estate'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from'] ?></small><?php echo
-                                    $lang['immo-price']
-
+                                <h2><small><?php echo $lang['from'] ?></small><?php
+                                    if ($lang['lang'] == "ar") {
+                                        $result = conversioncurrency($amount = $amountimmo, $currency_from = 'TND', $currency_to = 'TND');
+                                        echo $result . $lang['immo-price'];
+                                    } else if ($lang['lang'] == "fr") {
+                                        $result = conversioncurrency($amount = $amountimmo, $currency_from = 'TND', $currency_to = 'EUR');
+                                        echo $result . $lang['immo-price'];
+                                    } else if ($lang['lang'] == "en") {
+                                        $result = conversioncurrency($amount = $amountimmo, $currency_from = 'TND', $currency_to = 'USD');
+                                        echo $result . $lang['immo-price'];
+                                    }
                                     ?></h2>
                             </div>
                         </div>
@@ -465,7 +476,18 @@ Pricing
                                 <h2><?php echo $lang['ecommerce'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['ecommerce-price'] ?>
+                                <h2><small><?php echo $lang['from'] ?></small><?php
+                                    if ($lang['lang'] == "ar") {
+                                        $result = conversioncurrency($amount = $amountshop, $currency_from = 'TND', $currency_to = 'TND');
+                                        echo $result . $lang['ecommerce-price'];
+                                    } else if ($lang['lang'] == "fr") {
+                                        $result = conversioncurrency($amount = $amountshop, $currency_from = 'TND', $currency_to = 'EUR');
+                                        echo $result . $lang['ecommerce-price'];
+                                    } else if ($lang['lang'] == "en") {
+                                        $result = conversioncurrency($amount = $amountshop, $currency_from = 'TND', $currency_to = 'USD');
+                                        echo $result . $lang['ecommerce-price'];
+                                    }
+                                    ?>
                                 </h2>
                             </div>
                         </div>
