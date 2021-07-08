@@ -1,5 +1,21 @@
 <?php
 include "config.php";
+require_once('converter.php');
+$amountvitrine = 950;
+$amountimmo = 1950;
+$amountshop = 1900;
+function conversioncurrency($amount, $currency_from, $currency_to)
+{
+    $converter = new converter();
+    $converter->setConvert($amount, $currency_from);
+    $result = $converter->getConvert($currency_to);
+    $out['amount'] = $amount;
+    $out['from'] = $currency_from;
+    $out['result'] = $result;
+    $out['to'] = $currency_to;
+    return $out['result'];
+}
+
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
@@ -384,7 +400,18 @@ Pricing
                                 <h2><?php echo $lang['one page'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['onepage-price'] ?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php
+                                    if ($lang['lang'] == "ar") {
+                                        $result = conversioncurrency($amount = $amountvitrine, $currency_from = 'TND', $currency_to = 'TND');
+                                        echo $result . $lang['onepage-price'];
+                                    } else if ($lang['lang'] == "fr") {
+                                        $result = conversioncurrency($amount = $amountvitrine, $currency_from = 'TND', $currency_to = 'EUR');
+                                        echo $result . $lang['onepage-price'];
+                                    } else if ($lang['lang'] == "en") {
+                                        $result = conversioncurrency($amount = $amountvitrine, $currency_from = 'TND', $currency_to = 'USD');
+                                        echo $result . $lang['onepage-price'];
+                                    }
+                                    ?></h2>
                             </div>
                         </div>
                         <div class="ptable-body">
@@ -409,7 +436,10 @@ Pricing
                                 <h2><?php echo $lang['real estate'] ?></h2>
                             </div>
                             <div class="ptable-price">
-                                <h2><small><?php echo $lang['from'] ?></small><?php echo $lang['immo-price'] ?></h2>
+                                <h2><small><?php echo $lang['from'] ?></small><?php echo
+                                    $lang['immo-price']
+
+                                    ?></h2>
                             </div>
                         </div>
                         <div class="ptable-body">

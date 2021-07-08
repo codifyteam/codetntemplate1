@@ -1,5 +1,6 @@
 <?php
 $lang = array(
+    "lang"=>"en",
     "title" => "codifyTeam Website",
     "home" => "home",
     "services" => "services",
@@ -44,7 +45,7 @@ $lang = array(
     "real estate" => "realestate",
     "ecommerce" => "ecommerce",
     "from" => "from",
-    "onepage-price" => "350<span>$</span>",
+    "onepage-price" => "<span>$</span>",
     "immo-price" => "710<span>$</span>",
     "ecommerce-price" => "690<span>$</span>",
     'CMS user friendly' => 'CMS user friendly',

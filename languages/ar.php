@@ -1,5 +1,6 @@
 <?php
 $lang=array(
+    "lang"=>"ar",
     "title"=>"codifyTeam موقع",
     "home"=>"الاستقبال",
     "services"=>"خدماتنا",
@@ -44,7 +45,7 @@ $lang=array(
     "real estate"=>"وكالة عقارات",
     "ecommerce"=>"متجر",
     "from"=>"إبتداء من",
-    "onepage-price"=>"950<span>د.ت</span>",
+    "onepage-price"=>"<span>د.ت</span>",
     "immo-price"=>"1950<span>د.ت</span>",
     "ecommerce-price"=>"1900<span>د.ت</span>",
     'CMS user friendly' => 'لوحة تكم سهلة',
